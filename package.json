@@ -67,7 +67,9 @@
     "test:precommit": "npm run test:fast",
     "test:watch": "vitest",
     "prepare": "husky",
-    "prepublishOnly": "npm run build && npm run check"
+    "prepublishOnly": "npm run build && npm run check",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
   },
   "license": "Apache-2.0",
   "devDependencies": {
@@ -81,7 +83,8 @@
     "shx": "^0.4.0",
     "tsx": "^4.20.3",
     "typescript": "^5.9.3",
-    "vitest": "^4.1.0"
+    "vitest": "^4.1.0",
+    "wrangler": "^4.95.0"
   },
   "optionalDependencies": {
     "@biomejs/cli-linux-arm64": "2.3.5",

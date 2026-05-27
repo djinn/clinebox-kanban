@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "clinebox-kanban",
+  "compatibility_date": "2026-05-27",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "web-ui"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
